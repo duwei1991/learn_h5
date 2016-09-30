@@ -28,6 +28,7 @@
 * `http://www.typescriptlang.org/`
 * `http://babeljs.io/`
 * `https://nodejs.org/en/`
+
 #### 浏览器
 ##### PC端浏览器
 * PC端浏览器，特别是企业用户，仍然大量在使用IE老版本浏览器，其他现代浏览器主要包含Chrome、Firefox、Safira、Opera等，类似360浏览器等国产浏览器一般都是基于Chrome内核
@@ -35,10 +36,15 @@
 ##### 移动端浏览器
 * 移动端浏览器主要包含iOS的Safira浏览器、安卓的Chrome浏览器，以及腾讯的微信、QQ等内置浏览器
 * 一般只需要兼容HTML5、CSS3
+
 ### 二、HTML5技术栈
+
 ### 三、JS专题
+
 ### 四、CSS专题
+
 ### 五、NODE.JS专题
+
 ### 六、hybird app  
 - 6.1 微信小程序
 - 6.2 ionic
