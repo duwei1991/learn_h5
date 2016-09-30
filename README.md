@@ -10,14 +10,18 @@
 * POST - 向指定的资源提交要被处理的数据
 * POST raw方式使用的是纯字符串的数据上传方式，所以在POST之前，可能需要手工的把一些JSON格式的数据转换成字符串的(加两单引号)
 * POST form-data的方式就是key-value的提交，数据其实是分割的
+
 #### HTML、CSS、JAVASCRIPT
+
 ##### HTML
 * 当前并存的HTML版本是HTML4和HTML5,HTML4主要是为了兼容IE9以下浏览器，HTML5包含有新的标签和特性
+
 ##### CSS
 * 当前并存的CSS版本是CSS2和CSS3,其中CSS2因为浏览器的历史发展原因，不同浏览器实现相同的样式需要不同的语法，IE9以下浏览器样式兼容是一个比较头痛的事情，所以一般会采用一些样式框架来处理兼容问题，比如bootstrap的2.x版本
 * `http://v2.bootcss.com/`
 * CSS2对动画支持不是很好，所以之前很多动画都是由javascript来实现，而在CSS3中，原生的CSS动画比javascript实现的动画更加流畅，所以现在移动端动画更多的是采用CSS3的方案，有一个CSS3动画库可以参考
 *    `https://daneden.github.io/animate.css/`
+
 ##### JAVASCRIPT
 * javascript 是 ECMAScript（后简称ES)的具体实现，当前所有浏览器基本都兼容ES4的语法规则，现代浏览器和移动端浏览器基本都支持ES5的语法，而最新的ES6语法规则已经推出，但是浏览器并非完全支持，所以出现了`babel`这种将ES6语法的代码编译成ES5语法代码的工具出现
 * ES4时代，基本是jQuery一统天下，因为不同浏览器的语法各异，没有特别标准的规范，jQuery的出现，大大降低了开发人员的开发难度，后面ES5和ES6的一些语法规则，也是参考了jQuery的语法，而jQuery也不是止步不前，jQuery在版本规划上，1.x是兼容所有浏览器的版本，2.x是只兼容ES5语法的版本，所以在选择jQuery的时候，也需要区分使用场景
@@ -30,6 +34,7 @@
 * `https://nodejs.org/en/`
 
 #### 浏览器
+
 ##### PC端浏览器
 * PC端浏览器，特别是企业用户，仍然大量在使用IE老版本浏览器，其他现代浏览器主要包含Chrome、Firefox、Safira、Opera等，类似360浏览器等国产浏览器一般都是基于Chrome内核
 * 一般需要兼容HTML4、CSS2
